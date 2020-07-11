@@ -1,6 +1,6 @@
 # Original author: Pterodactyl Software
 # Updated by 502Network
-FROM    openjdk:11-alpine
+FROM    adoptopenjdk/openjdk11:jdk-11.0.7_10-alpine-slim
 
 LABEL   author='502Network' maintainer='abuse@honoka.club'
 
