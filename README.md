@@ -1,3 +1,3 @@
-# Pterodactyl Images
+# openjdk-11-alpine
 
-It contains the images we built ourselves. Each branch is a unique image.
+Image built upon openjdk-11-alpine. Used by Minecraft servers.
