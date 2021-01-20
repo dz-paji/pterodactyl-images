@@ -1,3 +1,3 @@
-# Pterodactyl Images
+# Java-glibc
 
-It contains the images we built ourselves. Each branch is a unique image.
+Java8 image. Created because quay loads too slow in China.
