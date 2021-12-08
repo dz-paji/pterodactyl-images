@@ -1,3 +1,3 @@
-# Pterodactyl Images
+# OpenJDK 17
 
-It contains the images we built ourselves unless specified reference. Each branch is a unique image.
+Based on OpenJDK 17
