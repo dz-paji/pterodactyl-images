@@ -2,13 +2,14 @@
 # Pterodactyl Core Dockerfile
 # Environment: Java (glibc support)
 # Minimum Panel Version: 0.6.0
+# Originally created by Michael Parker
 # ----------------------------------
 FROM        openjdk:17-slim
 
-LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL       author="dz_paji" maintainer="zane.q1n@outlook.com"
 
 RUN apt-get update -y \
- && apt-get install -y curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
+ && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 \
  && useradd -d /home/container -m container
  
 USER container
