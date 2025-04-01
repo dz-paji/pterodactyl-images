@@ -4,7 +4,7 @@
 # Minimum Panel Version: 0.6.0
 # Originally created by Michael Parker
 # ----------------------------------
-FROM        openjdk:17-slim
+FROM        eclipse-temurin:21-jre
 
 LABEL       author="dz_paji" maintainer="zane.q1n@outlook.com"
 
